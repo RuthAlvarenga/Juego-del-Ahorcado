@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: darkseagreen;
+    font-family: cursive;
+}
+P{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: darkslategrey;
+    color: azure;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    color: rgb(2, 44, 9);
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#palabra_a_adivinar {
+    height: 5em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 3px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 8px;
+    display: inline-block;
+}
+#letras{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+#letras button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+}
